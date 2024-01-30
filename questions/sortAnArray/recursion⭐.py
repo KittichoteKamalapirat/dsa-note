@@ -1,7 +1,7 @@
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def mergeSort(arr,s,e):
-            if s == e:
+            if e <= s: # e could be -1 when input is []
                 return
 
             # divide

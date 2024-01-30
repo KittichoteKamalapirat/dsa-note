@@ -1,10 +1,5 @@
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
-        def mergeSort(arr,s,e):
-            """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
         
         def merge(arr, start, mid, end):
             temp = []
